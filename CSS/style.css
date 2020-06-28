@@ -1,16 +1,52 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    
+    /*background: rgba(6, 55, 129, 0.3);
+    
+    
+    /*background: #2c3d51;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;*/
 }
+
+
+.holder{
+    margin: auto;
+    padding: 2em;
+    background: rgba(64, 224, 208, 0.4);
+    max-width: 950px;
+}
+
+.holder p{
+    font-size: 18px;
+    line-height: 19pt;
+    text-align: justify;
+}
+
+/*section{
+    padding: 70px 0px;
+    /*margin-top: 50px;*/
+    /*margin: auto;
+    background: rgba(8, 41, 75, 0.2);
+    text-align: center;
+    max-width: 1000px;
+}*/
+
+
+
 .wrap{
     height: 110px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(15, 67, 146, 1);
 }
 .mylogo{
     width: 140px;
     height: auto;
-    padding: 20px 100px;
+    padding: 15px 100px;
 }
 .navbar ul{
     float: right;
@@ -18,7 +54,7 @@ body{
 }
 .navbar ul li{
     list-style: none;
-    margin: 0 8px;
+    margin: 0px 8px;
     display: inline-block;
     line-height: 80px;
 }
@@ -68,3 +104,29 @@ body{
     background: rgb(3, 192, 192);
     border-radius: 5px;
 }
+
+/* Nani?! 
+
+h4{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.block p{
+    font-size: 20px;
+    padding: -3em;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+section{
+    display: block;
+    max-width: 900px;
+    background: #E74C3C;
+    margin: 0 auto 1em;
+    height: 200px;
+    position: relative;
+    border-right: .2em;
+    transform: preserve-3d;
+}*/
