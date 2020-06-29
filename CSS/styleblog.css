@@ -25,6 +25,12 @@ section{
     width: 100%;
     margin: 0 auto;
 }
+.container h1{
+    font-size: 46px;
+}
+.container p{
+    font-size: 20px;
+}
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
