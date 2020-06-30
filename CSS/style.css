@@ -2,18 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    
-    /*background: rgba(72, 105, 155, 0.8);*/
     background: rgba(118, 228, 243, 0.4);
-    
-    
-    /*background: #2c3d51;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    text-align: center;
-    color: #fff;*/
-}
 
+}
 
 .centre{
     margin: auto;
@@ -28,56 +19,45 @@ body{
     text-align: justify;
 }
 
-/*section{
-    padding: 70px 0px;
-    /*margin-top: 50px;*/
-    /*margin: auto;
-    background: rgba(8, 41, 75, 0.2);
-    text-align: center;
-    max-width: 1000px;
-}*/
-
-
-
 .wrap{
     height: 110px;
     width: 100%;
     background: rgb(23, 67, 134, 0.7);
 }
+
 .mylogo{
     width: 170px;
     height: 110px;
     padding: 0px 90px;
 }
+
 .navbar ul{
     float: right;
     margin-right: 20px;
 }
+
 .navbar ul li{
     list-style: none;
     margin: 0px 8px;
     display: inline-block;
     line-height: 80px;
 }
+
 .navbar ul li a{
     text-decoration: none;
     color:black;
     padding: 6px 13px;
-    font-size: 35px;
+    font-size: 34px;
     transition: .35s;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;  
 }
+
 .navbar ul li a:hover{
     background: #0717a3;
     border-radius: 5px;
 }
-/*.centre{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Times New Roman', Times, serif;
-}*/
+
 .reference a{
     text-decoration: none;
     color:black;
@@ -86,9 +66,11 @@ body{
     transition: .35s;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .blognav ul li{
     list-style: none;
 }
+
 .blognav ul li a{
     text-decoration: none;
     color:black;
@@ -102,26 +84,6 @@ body{
     border-radius: 5px;
 }
 
-/* NANIIII?!?! 
-
-
-.navbutton button{
-    height: 40px;
-    width: 110px;
-    font-size: 16px;
-    font-weight: bold;
-    color:black;
-    background: red;
-    border: 1px solid #cc0000;
-    outline: none;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: .5s;
-}
-.navbutton button :hover{
-    background: #cc0000;
-}*/
-
 button{
     background: none;
     color: rgb(3, 0, 44);
@@ -133,6 +95,7 @@ button{
     transition: .5s;
     overflow: hidden;
 }
+
 button :focus{
     outline: none;
 }
@@ -141,6 +104,7 @@ button:hover{
     background: #338033;
     cursor: pointer;
 }
+
 .styleguide{
     margin: auto;
     padding: 100px;
@@ -150,4 +114,7 @@ button:hover{
     padding: 10px;
     width: 350px;
     height: 350px;
+}
+.mapmiddle{
+    text-align: center;
 }
