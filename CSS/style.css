@@ -34,7 +34,8 @@ body{
 .mylogo{
     width: 170px;
     height: 110px;
-    padding: 0px 90px;
+    padding: 0px 0px;
+    
 }
 
 .navbar ul{
