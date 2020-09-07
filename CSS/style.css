@@ -2,14 +2,20 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: rgba(118, 228, 243, 0.4);
+    background: #659B5E;
 
+}
+
+.titlemid{
+    text-align: center;
+    font-size: 30px;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
 }
 
 .centre{
     margin: auto;
     padding: 2em;
-    background: rgba(64, 224, 208, 0.4);
+    background: #95BF74;
     max-width: 950px;
 }
 
@@ -22,7 +28,7 @@ body{
 .wrap{
     height: 110px;
     width: 100%;
-    background: rgb(23, 67, 134, 0.7);
+    background: #608548;
 }
 
 .mylogo{
@@ -54,7 +60,7 @@ body{
 }
 
 .navbar ul li a:hover{
-    background: #0717a3;
+    background: #95BF74;
     border-radius: 5px;
 }
 
@@ -115,6 +121,9 @@ button:hover{
     width: 350px;
     height: 350px;
 }
-.mapmiddle{
+/*.mapmiddle{
     text-align: center;
 }
+.mapmiddlez{
+    text-align: center;
+}*/
