@@ -1,64 +1,61 @@
-const pollData = [
+const pollChartData = [
     {
-        options: "Eastern Cape",
-        votes: 11,
+        province: "Eastern Cape",
+        recovered: 155,
         color: "rgb(255, 99, 132)"
     },
     {
-        options: "Free State",
-        votes: 8,
+        province: "Free State",
+        recovered: 86,
         color: "rgb(54, 162, 235)"
     },
     {
-        options: "Gauteng",
-        votes: 11,
+        province: "Gauteng",
+        recovered: 120,
         color: "rgb(36, 36, 36)"
     },
     {
-        options: "KwaZulu-Natal",
-        votes: 5,
+        province: "KwaZulu-Natal",
+        recovered: 100,
         color: "rgb(255, 159, 64)"
     },
     {
-        options: "Limpopo",
-        votes: 3,
+        province: "Limpopo",
+        recovered: 78,
         color: "rgb(75, 192, 192)"
     },
     {
-        options: "Mpumalanga",
-        votes: 8,
-        color: "rgb(255, 206, 86)"
+        province: "Mpumalanga",
+        recovered: 134,
+        color: "rgb(25, 180, 86)"
     },
     {
-        options: "Northern Cape",
-        votes: 10,
-        color: "rgb(153, 102, 255)"
-        
-    },
-
-    //
-
-    {
-        options: "North West",
-        votes: 10,
-        color: "rgb(153, 102, 255)"
+        province: "Northern Cape",
+        recovered: 180,
+        color: "rgb(83, 15, 155)"
         
     },
     {
-        options: "Western Cape",
-        votes: 10,
-        color: "rgb(153, 102, 255)"
+        province: "North West",
+        recovered: 100,
+        color: "rgb(253, 202, 155)"
         
     },
     {
-        options: "Northern Cape",
-        votes: 10,
-        color: "rgb(153, 102, 255)"
+        province: "Western Cape",
+        recovered: 50,
+        color: "rgb(293, 83, 255)"
         
     },
     {
-        options: "Northern Cape",
-        votes: 10,
+        province: "Northern Cape",
+        recovered: 64,
+        color: "rgb(117, 152, 175)"
+        
+    },
+    {
+        province: "Northern Cape",
+        recovered: 140,
         color: "rgb(153, 102, 255)"
         
     },
@@ -68,22 +65,12 @@ const ctx = document.getElementById('chart').getContext('2d');
 const pollChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        //labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        labels: pollData.map(pollOption => pollOption.options),
+        labels: pollChartData.map(pollOption => pollOption.province),
         datasets: [{
-            label: '# of Votes',
-            data: pollData.map(pollOption => pollOption.votes),
-            backgroundColor: pollData.map(pollOption => pollOption.color),
-            //borderColor: [
-            //    'rgba(255, 99, 132, 1)',
-            //    'rgba(54, 162, 235, 1)',
-            //    'rgba(255, 206, 86, 1)',
-            //    'rgba(75, 192, 192, 1)',
-            //    'rgba(153, 102, 255, 1)',
-            //    'rgba(255, 159, 64, 1)'
-            // ],
-            borderWidth: 3
-            // hoverBackgroundColor: "#000"
+            label: 'Total Recoveries',
+            data: pollChartData.map(pollOption => pollOption.recovered),
+            backgroundColor: pollChartData.map(pollOption => pollOption.color),
+            borderWidth: 6
         }]
     },
     options: {
@@ -94,15 +81,16 @@ const pollChart = new Chart(ctx, {
                 }
             }]
         },
-        title: {
-            display:true,
-            text:'Poll Results',
-            fontColor: "#333",
-            fontSize: 20,
-            padding: 20
-        },
+    title: {
+        display:true,
+        text:'Poll Results',
+        fontColor: "#333",
+        fontSize: 20,
+        padding: 20
+    },
         legend: {
             display: false
         }
     }
+
 });
