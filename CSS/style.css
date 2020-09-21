@@ -10,7 +10,6 @@ body{
 .titlemid{
     text-align: center;
     font-size: 30px;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
 }
 .centre{
     margin: auto;
@@ -131,7 +130,6 @@ canvas{
     .titlemid{
         text-align: center;
         font-size: 30px;
-        /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     }
     .centre{
         margin: auto;
@@ -237,7 +235,7 @@ canvas{
     canvas{
         border: 3px solid rgb(15, 151, 67);
     }
-    
+
     } 
     
     
@@ -254,7 +252,6 @@ canvas{
     .titlemid{
         text-align: center;
         font-size: 30px;
-        /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     }
     .centre{
         margin: auto;
@@ -360,7 +357,7 @@ canvas{
     canvas{
         border: 3px solid rgb(15, 151, 67);
     }
-    
+
     } 
     
 
